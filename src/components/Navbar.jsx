@@ -7,11 +7,12 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const navLinks = [
-    { name: 'About', href: '#about' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Tentang Saya', href: '#about' },
+    { name: 'Pengalaman', href: '#experience' },
+    { name: 'Proyek', href: '#projects' },
+    { name: 'Sertifikasi', href: '#certifications' },
+    { name: 'Keterampilan', href: '#skills' },
+    { name: 'Kontak', href: '#contact' },
   ];
 
   useEffect(() => {
@@ -49,7 +50,7 @@ const Navbar = () => {
               Gading.dev
             </a>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
