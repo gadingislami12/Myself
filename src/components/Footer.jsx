@@ -1,0 +1,30 @@
+import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+
+const Footer = () => {
+  return (
+    <footer className="bg-slate-950 border-t border-slate-900 py-10 mt-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+        <div className="flex space-x-6 mb-6">
+          <a href="#" className="text-slate-500 hover:text-white transition-colors">
+            <span className="sr-only">GitHub</span>
+            <FaGithub className="h-6 w-6" />
+          </a>
+          <a href="#" className="text-slate-500 hover:text-white transition-colors">
+            <span className="sr-only">LinkedIn</span>
+            <FaLinkedin className="h-6 w-6" />
+          </a>
+          <a href="#" className="text-slate-500 hover:text-white transition-colors">
+            <span className="sr-only">Twitter</span>
+            <FaTwitter className="h-6 w-6" />
+          </a>
+        </div>
+        <p className="text-slate-500 text-sm text-center">
+          &copy; {new Date().getFullYear()} Gading Islami. Built with React & Tailwind CSS.
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
