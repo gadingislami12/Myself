@@ -14,7 +14,7 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12 flex flex-col items-center"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contact</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Kontak</h2>
           <div className="w-16 h-1 bg-indigo-500 rounded-full"></div>
         </motion.div>
 
