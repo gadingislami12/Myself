@@ -15,8 +15,8 @@ const projects = [
     title: "Proyek Tugas Akhir",
     description: "Sistem Pendukung Keputusan Berbasis Web menggunakan algoritma VIKOR untuk menentukan kelayakan bantuan warga desa secara objektif.",
     tech: ["PHP", "MySQL", "VIKOR Algorithm", "Bootstrap"],
-    github: "",
-    external: ""
+    github: "https://github.com/gadingislami12/Proyek-Skripsi-Website-SPK",
+    external: "http://gading-spk.free.nf/pendataan_desa/login.php"
   },
   {
     title: "Situs Portofolio",
