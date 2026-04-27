@@ -6,7 +6,7 @@ const certifications = [
   {
     title: "Pemrograman",
     link: "https://gadingislami12.github.io/Profile-Portofolio/SKILL_PASSPORT_250620070019.pdf",
-    issuer: "Skill Passport"
+    issuer: "Skill Passport BNSP"
   },
   {
     title: "Intro to Software Engineering",
@@ -16,12 +16,12 @@ const certifications = [
   {
     title: "TOEFL",
     link: "https://gadingislami12.github.io/Profile-Portofolio/SERTIFIKAT_TOEFL_241021080303_GADING%20ISLAMI.PDF",
-    issuer: "Lembaga Bahasa"
+    issuer: "Lembaga Bahasa Universitas Pamulang"
   },
   {
     title: "Networking Basic",
     link: "https://gadingislami12.github.io/Profile-Portofolio/networking-basic-gading.pdf",
-    issuer: "Networking"
+    issuer: "Networking Academy By Cisco"
   }
 ];
 
