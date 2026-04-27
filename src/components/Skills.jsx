@@ -12,7 +12,7 @@ const Skills = () => {
     {
       title: "Web & Frameworks",
       icon: <Layout className="h-6 w-6 text-indigo-500" />,
-      skills: ["React", "Laravel", "Node.js", "Bootstrap", "Tailwind CSS", "Vite", "WordPress"]
+      skills: ["React", "Laravel", "Node.js", "Bootstrap", "Tailwind CSS", "Vite", "WordPress", "GitHub"]
     }
   ];
 

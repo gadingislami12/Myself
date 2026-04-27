@@ -5,7 +5,7 @@ import heroImage from '../assets/hero.png';
 
 const Hero = () => {
   const techStack = [
-    'Java', 'C++', 'HTML', 'PHP', 'MySQL', 'Python', 'JS', 'React', 'Node', 'Bootstrap', 'Golang', 'Laravel', 'Wordpress'
+    'Java', 'C++', 'HTML', 'PHP', 'MySQL', 'Python', 'JS', 'React', 'Node', 'Bootstrap', 'Golang', 'Laravel', 'Wordpress', 'GitHub'
   ];
 
   const resumeLink = "https://drive.google.com/drive/folders/12DNuR1ZPNV3XbPAgd0H7NXqYbA7dz0v3?usp=drive_link";
