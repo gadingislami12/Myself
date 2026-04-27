@@ -5,13 +5,6 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
-    title: "Sistem Informasi Sekolah",
-    description: "Sistem full-stack komprehensif yang dibangun untuk mengelola administrasi sekolah, data siswa, dan catatan akademik secara efisien.",
-    tech: ["PHP", "Bootstrap", "MySQL", "Javascript"],
-    github: "",
-    external: ""
-  },
-  {
     title: "Proyek Tugas Akhir",
     description: "Sistem Pendukung Keputusan Berbasis Web menggunakan algoritma VIKOR untuk menentukan kelayakan bantuan warga desa secara objektif.",
     tech: ["PHP", "MySQL", "VIKOR Algorithm", "Bootstrap"],
@@ -24,6 +17,13 @@ const projects = [
     tech: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     github: "https://gadingislami12.github.io/Profile-Portofolio/",
     external: "https://gadingislami12.github.io/Profile-Portofolio/"
+  },
+  {
+    title: "Lumina Fine Dining",
+    description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
+    tech: ["HTML", "CSS", "Javascript"],
+    github: "https://github.com/gadingislami12/Restaurant-Website",
+    external: "https://gadingislami12.github.io/Restaurant-Website/"
   }
 ];
 
@@ -67,15 +67,15 @@ const Projects = () => {
                   )}
                 </div>
               </div>
-              
+
               <h3 className="text-xl font-bold text-slate-200 mb-3 group-hover:text-blue-400 transition-colors">
                 {project.title}
               </h3>
-              
+
               <p className="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
                 {project.description}
               </p>
-              
+
               <div className="flex flex-wrap gap-3 mt-auto">
                 {project.tech.map((tech) => (
                   <span key={tech} className="text-xs font-mono text-slate-500">

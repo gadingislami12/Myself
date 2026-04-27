@@ -6,7 +6,7 @@ const certifications = [
   {
     title: "Pemrograman",
     link: "https://gadingislami12.github.io/Profile-Portofolio/SKILL_PASSPORT_250620070019.pdf",
-    issuer: "Skill Passport"
+    issuer: "Skill Passport BNSP"
   },
   {
     title: "Intro to Software Engineering",
@@ -16,12 +16,12 @@ const certifications = [
   {
     title: "TOEFL",
     link: "https://gadingislami12.github.io/Profile-Portofolio/SERTIFIKAT_TOEFL_241021080303_GADING%20ISLAMI.PDF",
-    issuer: "Lembaga Bahasa"
+    issuer: "Lembaga Bahasa Universitas Pamulang"
   },
   {
     title: "Networking Basic",
     link: "https://gadingislami12.github.io/Profile-Portofolio/networking-basic-gading.pdf",
-    issuer: "Networking"
+    issuer: "Networking Academy By Cisco"
   }
 ];
 
@@ -53,20 +53,20 @@ const Certifications = () => {
             >
               <div className="flex justify-between items-center mb-6">
                 <Award className="h-10 w-10 text-blue-500" />
-                <a 
-                  href={cert.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-slate-400 hover:text-blue-400 transition-colors"
                 >
                   <ExternalLink className="h-5 w-5" />
                 </a>
               </div>
-              
+
               <h3 className="text-xl font-bold text-slate-200 mb-2 group-hover:text-blue-400 transition-colors">
                 {cert.title}
               </h3>
-              
+
               <p className="text-slate-400 text-sm mt-auto">
                 {cert.issuer}
               </p>

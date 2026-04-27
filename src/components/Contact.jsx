@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -41,6 +41,16 @@ const Contact = () => {
           >
             <FaGithub className="h-5 w-5 text-slate-300 group-hover:text-white" />
             <span className="text-slate-300 font-medium group-hover:text-white transition-colors">GitHub</span>
+          </a>
+
+          <a
+            href="https://wa.me/6285155259996"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-3 bg-slate-900/80 border border-slate-800 rounded-xl hover:border-indigo-500/50 hover:bg-slate-800 transition-all group"
+          >
+            <FaWhatsapp className="h-5 w-5 text-[#25D366] group-hover:text-[#128C7E]" />
+            <span className="text-slate-300 font-medium group-hover:text-white transition-colors">WhatsApp</span>
           </a>
         </motion.div>
       </div>
