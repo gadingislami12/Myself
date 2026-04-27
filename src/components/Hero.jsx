@@ -5,7 +5,7 @@ import heroImage from '../assets/hero.png';
 
 const Hero = () => {
   const techStack = [
-    'Java', 'C++', 'HTML', 'PHP', 'MySQL', 'Python', 'JS', 'React', 'Node', 'Bootstrap', 'Golang', 'Laravel'
+    'Java', 'C++', 'HTML', 'PHP', 'MySQL', 'Python', 'JS', 'React', 'Node', 'Bootstrap', 'Golang', 'Laravel', 'Wordpress'
   ];
 
   const resumeLink = "https://drive.google.com/drive/folders/12DNuR1ZPNV3XbPAgd0H7NXqYbA7dz0v3?usp=drive_link";
@@ -107,10 +107,10 @@ const Hero = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-600 to-indigo-500 rounded-3xl blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-500"></div>
             <div className="relative aspect-[3/4] rounded-3xl overflow-hidden border-2 border-slate-800 bg-slate-900 shadow-2xl">
-              <img 
-                src={heroImage} 
-                alt="Gading Islami" 
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+              <img
+                src={heroImage}
+                alt="Gading Islami"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           </motion.div>
