@@ -19,6 +19,13 @@ const projects = [
     external: "https://gadingislami12.github.io/Profile-Portofolio/"
   },
   {
+  title: "AuraCart - AI Ecommerce Chatbot",
+  description: "Aplikasi full-stack e-commerce dengan asisten belanja AI (Gemini 2.5 Flash) yang mampu merekomendasikan produk interaktif secara real-time berdasarkan data katalog Supabase, dilengkapi admin dashboard untuk manajemen produk dan audit riwayat percakapan.",
+  tech: ["Next.js", "TypeScript", "Supabase", "Gemini API", "Tailwind CSS"],
+  github: "https://github.com/gadingislami12/ai-ecommerce-chatbot",
+  external: "https://ai-ecommerce-chabot.vercel.app/"
+},
+  {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
     tech: ["HTML", "CSS", "Javascript"],
