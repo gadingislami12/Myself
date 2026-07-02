@@ -26,6 +26,14 @@ const projects = [
   external: "https://ai-ecommerce-chabot.vercel.app/"
 },
   {
+  title: "Mini TikTok Shop",
+  description:
+    "Full-stack social commerce platform inspired by TikTok, featuring a responsive vertical content feed, product tagging, media uploads, Supabase Authentication, and a comprehensive admin dashboard. Designed with scalable architecture and modern UI/UX to simulate a real-world social commerce ecosystem.",
+  tech: ["Next.js","TypeScript","Supabase","Tailwind CSS","shadcn/ui","Vercel"],
+  github: "https://github.com/gadingislami12/dummy_tiktok",
+  external: "https://dummytiktok.vercel.app/"
+},
+  {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
     tech: ["HTML", "CSS", "Javascript"],
