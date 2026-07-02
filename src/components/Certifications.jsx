@@ -2,17 +2,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, ExternalLink } from 'lucide-react';
 
-// 1. Import semua file PDF dari folder assets sesuai nama file di image_a2c8c7.png
+// 1. Import semua file PDF dari folder assets (Path disamakan agar konsisten)
 import pdfBNSP from '../assets/Certifications/SKILL_PASSPORT_250620070019.pdf';
 import pdfCCSE from '../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf'; 
 import pdfTOEFL from '../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF';
 import pdfCisco from '../assets/Certifications/NetworkingBasics-Gading.pdf';
-import pdfClaude from 'src/assets/Certifications/certificate-xe9kyi453a2o-1776282485.pdf'
+import pdfClaude from '../assets/Certifications/certificate-xe9kyi453a2o-1776282485.pdf'; // Perbaikan path di sini
 
 const certifications = [
   {
     title: "Pemrograman",
-    link: pdfBNSP, // Langsung mengarah ke file lokal setelah di-import
+    link: pdfBNSP,
     issuer: "Skill Passport BNSP"
   },
   {
@@ -31,11 +31,12 @@ const certifications = [
     issuer: "Networking Academy By Cisco"
   },
   {
-    title: "Claude Code 101",
-      link: pdfClaude,
-      issuer: "Anthropic"
-}
+    title: "Claude Code 101", // Perbaikan: mengganti tanda titik (.) menjadi koma (,)
+    link: pdfClaude,
+    issuer: "Anthropic"
+  }
 ];
+
 const Certifications = () => {
   return (
     <section id="certifications" className="py-20 relative">
