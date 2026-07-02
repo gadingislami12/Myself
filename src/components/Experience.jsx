@@ -4,7 +4,20 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    id: 1,
+    id: 1, // ID disesuaikan agar unik (urut dari yang terbaru)
+    role: "Admin IT",
+    company: "PT Perkasa Tehnik",
+    period: "Mar 2026 - Apr 2026",
+    description: [
+      "Melakukan perekaman suara untuk dataset AI pada aplikasi DingTalk.",
+      "Mengelola pengunggahan data hasil rekaman ke platform aplikasi web secara akurat.",
+      "Memastikan validitas, konsistensi, dan aksesibilitas data yang telah diunggah.",
+      "Berkoordinasi dengan tim untuk memastikan proses pengelolaan data berjalan sesuai kebutuhan sistem."
+    ],
+    skills: ["Data Management", "AI Dataset", "DingTalk", "Data Validation", "Web Platforms"]
+  },
+  {
+    id: 2,
     role: "IT Support",
     company: "Universitas Pamulang",
     period: "Jul 2024 - Dec 2024",
@@ -20,7 +33,7 @@ const experiences = [
     skills: ["Hardware", "Networking", "Troubleshooting", "Technical Support", "OS Installation"]
   },
   {
-    id: 2,
+    id: 3,
     role: "Full Stack Developer",
     company: "MTs Al-Hamidiyah",
     period: "Sep 2023 - Feb 2024",
