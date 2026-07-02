@@ -2,25 +2,32 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, ExternalLink } from 'lucide-react';
 
+// 1. Import semua file PDF dari folder assets sesuai nama file di image_a2c8c7.png
+import pdfBNSP from '../assets/Certifications/SKILL_PASSPORT_250620070019.pdf';
+import pdfCCSE from '../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf'; 
+import pdfTOEFL from '../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF';
+import pdfCisco from '../assets/Certifications/NetworkingBasics-Gading.pdf';
+// Catatan: Ada satu file tambahan 'certificate-xe9kyi453a2o...' jika ingin dipakai nanti
+
 const certifications = [
   {
     title: "Pemrograman",
-    link: "https://gadingislami12.github.io/Profile-Portofolio/SKILL_PASSPORT_250620070019.pdf",
+    link: pdfBNSP, // Menggunakan variabel import
     issuer: "Skill Passport BNSP"
   },
   {
     title: "Intro to Software Engineering",
-    link: "https://gadingislami12.github.io/Profile-Portofolio/CCSE_gadingislami12@gmail.com_CCSE%20090326-01-1-00030.pdf",
+    link: pdfCCSE,
     issuer: "CCSE"
   },
   {
     title: "TOEFL",
-    link: "https://gadingislami12.github.io/Profile-Portofolio/SERTIFIKAT_TOEFL_241021080303_GADING%20ISLAMI.PDF",
+    link: pdfTOEFL,
     issuer: "Lembaga Bahasa Universitas Pamulang"
   },
   {
     title: "Networking Basic",
-    link: "https://gadingislami12.github.io/Profile-Portofolio/networking-basic-gading.pdf",
+    link: pdfCisco,
     issuer: "Networking Academy By Cisco"
   }
 ];
