@@ -52,7 +52,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-lg text-slate-400 mb-8 max-w-2xl leading-relaxed"
             >
-              Lulusan Teknik Informatika dengan minat dan fokus pada bidang Full Stack Development dan IT Support. Memiliki pemahaman dalam pengembangan aplikasi web menggunakan HTML, CSS, JavaScript, serta framework modern seperti React dan Node.js, serta pengalaman dalam membangun sistem berbasis web yang responsif dan fungsional.
+              Lulusan Teknik Informatika dengan fokus karier sebagai Full Stack Developer. Berpengalaman dalam siklus pengembangan aplikasi web e-commerce, mencakup integrasi kecerdasan buatan pada Chatbot AI E-commerce dan replikasi fitur belanja dinamis pada proyek Dummy TikTok Shop. Mengombinasikan logika programming yang kuat dan desain antarmuka yang responsif untuk membangun platform digital yang siap pakai.
             </motion.p>
 
             <motion.div
