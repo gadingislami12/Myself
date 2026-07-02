@@ -28,7 +28,7 @@ const projects = [
   {
   title: "Mini TikTok Shop",
   description:
-    "Full-stack social commerce platform inspired by TikTok, featuring a responsive vertical content feed, product tagging, media uploads, Supabase Authentication, and a comprehensive admin dashboard. Designed with scalable architecture and modern UI/UX to simulate a real-world social commerce ecosystem.",
+    "Platform social commerce full-stack terinspirasi TikTok dengan fitur feed video vertikal yang responsif, integrasi produk, unggah media, dan Autentikasi Supabase. Dilengkapi dashboard admin yang lengkap serta dirancang menggunakan arsitektur modern untuk mensimulasikan ekosistem belanja daring yang interaktif.",
   tech: ["Next.js","TypeScript","Supabase","Tailwind CSS","shadcn/ui","Vercel"],
   github: "https://github.com/gadingislami12/dummy_tiktok",
   external: "https://dummytiktok.vercel.app/"
