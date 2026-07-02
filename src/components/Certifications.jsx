@@ -31,7 +31,7 @@ const certifications = [
     issuer: "Networking Academy By Cisco"
   },
   {
-    title: "Claude Code 101".
+    title: "Claude Code 101",
       link: pdfClaude,
       issuer: "Anthropic"
 },
