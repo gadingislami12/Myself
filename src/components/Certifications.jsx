@@ -7,16 +7,6 @@ import pdfBNSP from '../assets/Certifications/SKILL_PASSPORT_250620070019.pdf';
 import pdfCCSE from '../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf'; 
 import pdfTOEFL from '../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF';
 import pdfCisco from '../assets/Certifications/NetworkingBasics-Gading.pdf';
-// Catatan: Ada satu file tambahan 'certificate-xe9kyi453a2o...' jika ingin dipakai nanti
-
-import { motion } from 'framer-motion';
-import { Award, ExternalLink } from 'lucide-react';
-
-// 1. Import semua file PDF dari folder assets sesuai nama file di image_a2c8c7.png
-import pdfBNSP from '../assets/Certifications/SKILL_PASSPORT_250620070019.pdf';
-import pdfCCSE from '../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf'; 
-import pdfTOEFL from '../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF';
-import pdfCisco from '../assets/Certifications/NetworkingBasics-Gading.pdf';
 
 const certifications = [
   {
