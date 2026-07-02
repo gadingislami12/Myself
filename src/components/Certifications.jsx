@@ -2,37 +2,33 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, ExternalLink } from 'lucide-react';
 
-// 1. Import semua file PDF dari folder assets (Path disamakan agar konsisten)
-import pdfBNSP from '../assets/Certifications/SKILL_PASSPORT_250620070019.pdf';
-import pdfCCSE from '../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf'; 
-import pdfTOEFL from '../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF';
-import pdfCisco from '../assets/Certifications/NetworkingBasics-Gading.pdf';
-import pdfClaude from '../assets/Certifications/certificate-xe9kyi453a2o-1776282485.pdf'; // Perbaikan path di sini
+// HAPUS SEMUA BARIS IMPORT PDF DI SINI AGAR BUILD VITE TIDAK ERROR
 
 const certifications = [
   {
     title: "Pemrograman",
-    link: pdfBNSP,
+    // Menggunakan path relatif langsung yang akan dibaca oleh bundler dari folder src
+    link: new URL('../assets/Certifications/SKILL_PASSPORT_250620070019.pdf', import.meta.url).href,
     issuer: "Skill Passport BNSP"
   },
   {
     title: "Intro to Software Engineering",
-    link: pdfCCSE,
+    link: new URL('../assets/Certifications/CCSE_gadingislami12@gmail.com_CCSE 090326-01-1-00030.pdf', import.meta.url).href,
     issuer: "CCSE"
   },
   {
     title: "TOEFL",
-    link: pdfTOEFL,
+    link: new URL('../assets/Certifications/SERTIFIKAT_TOEFL_241021080303_GADING ISLAMI.PDF', import.meta.url).href,
     issuer: "Lembaga Bahasa Universitas Pamulang"
   },
   {
     title: "Networking Basic",
-    link: pdfCisco,
+    link: new URL('../assets/Certifications/NetworkingBasics-Gading.pdf', import.meta.url).href,
     issuer: "Networking Academy By Cisco"
   },
   {
-    title: "Claude Code 101", // Perbaikan: mengganti tanda titik (.) menjadi koma (,)
-    link: pdfClaude,
+    title: "Claude Code 101",
+    link: new URL('../assets/Certifications/certificate-xe9kyi453a2o-1776282485.pdf', import.meta.url).href,
     issuer: "Anthropic"
   }
 ];
