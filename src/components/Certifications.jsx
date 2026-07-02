@@ -34,7 +34,7 @@ const certifications = [
     title: "Claude Code 101",
       link: pdfClaude,
       issuer: "Anthropic"
-},
+}
 ];
 const Certifications = () => {
   return (
