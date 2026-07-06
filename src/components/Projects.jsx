@@ -34,7 +34,7 @@ const projects = [
   external: "https://dummytiktok.vercel.app/"
 },
   {
-  title: "Website Lesehan Nambah Donk",
+  title: "Website Rumah Makan Lesehan Nambah Donk",
   description: "Website kuliner interaktif untuk Rumah Makan Lesehan Nambah Donk yang dilengkapi katalog menu dinamis, pencarian real-time, penyaringan kategori responsif, serta simulasi keranjang belanja dan integrasi pemesanan WhatsApp.",
   tech: ["HTML5", "CSS3", "JavaScript", "WhatsApp API"],
   github: "https://github.com/gadingislami12/Website-Nambah-Dong",
