@@ -34,6 +34,13 @@ const projects = [
   external: "https://dummytiktok.vercel.app/"
 },
   {
+  title: "Website Lesehan Nambah Donk",
+  description: "Website kuliner interaktif untuk Rumah Makan Lesehan Nambah Donk yang dilengkapi katalog menu dinamis, pencarian real-time, penyaringan kategori responsif, serta simulasi keranjang belanja dan integrasi pemesanan WhatsApp.",
+  tech: ["HTML5", "CSS3", "JavaScript", "WhatsApp API"],
+  github: "https://github.com/gadingislami12/Website-Nambah-Dong",
+  external: "https://gadingislami12.github.io/Website-Nambah-Dong/"
+},
+  {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
     tech: ["HTML", "CSS", "Javascript"],
