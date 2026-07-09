@@ -41,6 +41,14 @@ const projects = [
   external: "https://gadingislami12.github.io/Website-Nambah-Dong/"
 },
   {
+  title: "Website Kopi Jabat",
+  description: "Website landing page interaktif untuk produk Kopi Jabat yang dilengkapi katalog menu dinamis, sistem filter ukuran kemasan, keranjang belanja lokal, dan formulir pemesanan terintegrasi WhatsApp.",
+  tech: ["HTML5", "CSS3", "JavaScript", "WhatsApp API"],
+  github: "https://github.com/gadingislami12/website-kopi-jabat",
+  external: "https://gadingislami12.github.io/website-kopi-jabat/"
+},
+
+  {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
     tech: ["HTML", "CSS", "Javascript"],
