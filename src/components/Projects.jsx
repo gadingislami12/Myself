@@ -47,7 +47,13 @@ const projects = [
   github: "https://github.com/gadingislami12/website-kopi-jabat",
   external: "https://gadingislami12.github.io/website-kopi-jabat/"
 },
-
+  {
+  title: "Website KB An Nuriyah",
+  description: "Website profil sekolah interaktif untuk KB/PAUD An Nuriyah yang dilengkapi tab informasi sejarah, kurikulum resmi, data pendidik, galeri kegiatan, serta form pendaftaran online via WhatsApp.",
+  tech: ["HTML5", "CSS3", "JavaScript", "WhatsApp API"],
+  github: "https://github.com/gadingislami12/paud-An-Nuriyah",
+  external: "https://gadingislami12.github.io/paud-An-Nuriyah/"
+},
   {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
