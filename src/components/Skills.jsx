@@ -8,12 +8,14 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code2 className="h-6 w-6 text-blue-500" />,
-      skills: ["Golang", "Python", "C++", "Java", "PHP", "JavaScript", "HTML"]
+      // Menambahkan CSS
+      skills: ["Golang", "Python", "C++", "Java", "PHP", "JavaScript", "HTML", "CSS"]
     },
     {
       title: "Web & Frameworks",
       icon: <Layout className="h-6 w-6 text-indigo-500" />,
-      skills: ["React", "Laravel", "Node.js", "Bootstrap", "Tailwind CSS", "Vite"]
+      // Menambahkan Next.js, Framer Motion, dan React Router
+      skills: ["React", "Next.js", "Laravel", "Node.js", "Tailwind CSS", "Bootstrap", "Framer Motion", "React Router"]
     },
     {
       title: "Databases & Management",
@@ -23,7 +25,8 @@ const Skills = () => {
     {
       title: "Tools & Platforms",
       icon: <Wrench className="h-6 w-6 text-amber-500" />,
-      skills: ["GitHub", "WordPress"]
+      // Menambahkan Git, GitHub Actions, dan Vercel (sangat cocok untuk Next.js)
+      skills: ["Git", "GitHub", "GitHub Actions", "WordPress", "Vercel","Supabase"]
     }
   ];
 
