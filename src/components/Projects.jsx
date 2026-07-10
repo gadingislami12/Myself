@@ -55,6 +55,13 @@ const projects = [
   external: "https://gadingislami12.github.io/paud-An-Nuriyah/"
 },
   {
+  title: "Flowerin - E-Commerce Bouquet & Florist",
+  description: "Website e-commerce katalog penjualan buket dan bunga premium (fresh flower, artificial, satin, uang, dll) berbasis web statis. Dilengkapi sistem keranjang belanja dengan penyimpanan LocalStorage dan checkout instan terintegrasi otomatis ke WhatsApp. Proyek ini dibangun secara kolaboratif bersama Ulfa.",
+  tech: ["React", "Vite", "React Router", "Vanilla CSS", "LocalStorage", "WhatsApp API"],
+  github: "https://github.com/gadingislami12/flowerin",
+  external: "https://gadingislami12.github.io/flowerin/"
+},
+  {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
     tech: ["HTML", "CSS", "Javascript"],
