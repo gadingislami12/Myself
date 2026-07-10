@@ -8,7 +8,8 @@ const Footer = () => {
         <div className="flex space-x-6 mb-6">
         </div>
         <p className="text-slate-500 text-sm text-center">
-          &copy; {new Date().getFullYear()} Gading Islami. Built with React & Tailwind CSS.
+          &copy; {new Date().getFullYear()} <a href="https://www.instagram.com/gading19_/" target="_blank" rel="noopener noreferrer"> 
+            Gading Islami. Built with React & Tailwind CSS.
         </p>
       </div>
     </footer>
