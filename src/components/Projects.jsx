@@ -65,7 +65,7 @@ const projects = [
   title: "PT Sri Nusantara Semesta",
   description: "Platform web modern untuk pelacakan dan manajemen pengiriman barang. Aplikasi ini menyediakan sistem tracking real-time, halaman informasi perusahaan, dan layanan pelanggan terintegrasi.",
   tech: ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "API Integration"],
-  github: "https://github.com/gadinislami12/PT-Sri-Nusantara-Semesta",
+  github: "https://github.com/gadingislami12/PT-Sri-Nusantara-Semesta",
   external: "https://pt-sri-nusantara-semesta.netlify.app/"
 },
   {
