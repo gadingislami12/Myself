@@ -61,6 +61,13 @@ const projects = [
   github: "https://github.com/gadingislami12/flowerin",
   external: "https://gadingislami12.github.io/flowerin/"
 },
+{
+  title: "PT Sri Nusantara Semesta",
+  description: "Platform web modern untuk pelacakan dan manajemen pengiriman barang. Aplikasi ini menyediakan sistem tracking real-time, halaman informasi perusahaan, dan layanan pelanggan terintegrasi.",
+  tech: ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "API Integration"],
+  github: "https://github.com/gadinislami12/PT-Sri-Nusantara-Semesta",
+  external: "https://pt-sri-nusantara-semesta.netlify.app/"
+},
   {
     title: "Lumina Fine Dining",
     description: "Situs web portofolio restoran 'Lumina Fine Dining' yang elegan. Menampilkan tata letak modern dan responsif, antarmuka menu yang eksklusif, serta bagian pemesanan meja.",
